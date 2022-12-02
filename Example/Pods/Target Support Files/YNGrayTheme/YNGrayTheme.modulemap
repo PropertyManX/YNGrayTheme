@@ -1,0 +1,6 @@
+framework module YNGrayTheme {
+  umbrella header "YNGrayTheme-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B25C96ABFDEA811B28775B11 /* Pods_YNGrayTheme_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE13930B99207FE12F72079 /* Pods_YNGrayTheme_Example.framework */; };
+		B932FBFA2939C2D5008F5FAC /* 缅怀江泽民同志.png in Resources */ = {isa = PBXBuildFile; fileRef = B932FBF92939C2D5008F5FAC /* 缅怀江泽民同志.png */; };
 		F9E9E1D22A062CB4C46959D5 /* Pods_YNGrayTheme_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C854C056E4256F88A3C101C5 /* Pods_YNGrayTheme_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,13 +60,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		61C4C60DEB51D1E2E6B970BF /* YNGrayTheme.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YNGrayTheme.podspec; path = ../YNGrayTheme.podspec; sourceTree = "<group>"; };
+		61C4C60DEB51D1E2E6B970BF /* YNGrayTheme.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YNGrayTheme.podspec; path = ../YNGrayTheme.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80EE29FB70A74ECEB117223B /* Pods-YNGrayTheme_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNGrayTheme_Example.debug.xcconfig"; path = "Target Support Files/Pods-YNGrayTheme_Example/Pods-YNGrayTheme_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89B882011B9DF9381E1C3070 /* Pods-YNGrayTheme_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNGrayTheme_Tests.release.xcconfig"; path = "Target Support Files/Pods-YNGrayTheme_Tests/Pods-YNGrayTheme_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B90237EFF42F6A280877800D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BBCE2E67E7FF495A5A8BACC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B90237EFF42F6A280877800D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B932FBF92939C2D5008F5FAC /* 缅怀江泽民同志.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "缅怀江泽民同志.png"; sourceTree = "<group>"; };
+		BBCE2E67E7FF495A5A8BACC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C854C056E4256F88A3C101C5 /* Pods_YNGrayTheme_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNGrayTheme_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 		6003F593195388D20070C39A /* Example for YNGrayTheme */ = {
 			isa = PBXGroup;
 			children = (
+				B932FBF92939C2D5008F5FAC /* 缅怀江泽民同志.png */,
 				6003F59C195388D20070C39A /* YNAppDelegate.h */,
 				6003F59D195388D20070C39A /* YNAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +196,6 @@
 				0D221279AB0B01B69FE1A02B /* Pods-YNGrayTheme_Tests.debug.xcconfig */,
 				89B882011B9DF9381E1C3070 /* Pods-YNGrayTheme_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -281,6 +284,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				B932FBFA2939C2D5008F5FAC /* 缅怀江泽民同志.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +501,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YNGrayTheme/YNGrayTheme-Prefix.pch";
 				INFOPLIST_FILE = "YNGrayTheme/YNGrayTheme-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +518,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YNGrayTheme/YNGrayTheme-Prefix.pch";
 				INFOPLIST_FILE = "YNGrayTheme/YNGrayTheme-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

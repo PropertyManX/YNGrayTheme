@@ -7,8 +7,12 @@
 //
 
 #import "YNViewController.h"
+#import <WebKit/WebKit.h>
 
 @interface YNViewController ()
+
+@property (weak, nonatomic) IBOutlet WKWebView *webView;
+@property (weak, nonatomic) IBOutlet UIImageView *imageview;
 
 @end
 
@@ -17,7 +21,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self.imageview setImage:[UIImage imageNamed:@"缅怀江泽民同志"]];
+    NSURL *url=[NSURL URLWithString:@"https://baike.baidu.com/item/%E6%B1%9F%E6%B3%BD%E6%B0%91/115299"];
+    NSURLRequest *request=[NSURLRequest requestWithURL:url];
+    [self.webView loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning

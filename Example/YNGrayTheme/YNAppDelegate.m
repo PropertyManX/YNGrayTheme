@@ -7,12 +7,14 @@
 //
 
 #import "YNAppDelegate.h"
+#import "YNGrayThemeManager.h"
 
 @implementation YNAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [YNGrayThemeManager setGlobalGayByForce:true];
     return YES;
 }
 

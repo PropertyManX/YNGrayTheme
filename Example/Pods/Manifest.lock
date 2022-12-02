@@ -1,0 +1,16 @@
+PODS:
+  - YNGrayTheme (0.1.0)
+
+DEPENDENCIES:
+  - YNGrayTheme (from `../`)
+
+EXTERNAL SOURCES:
+  YNGrayTheme:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YNGrayTheme: cf0c5d8c451e3e6f2251a9ac1c235f0be083429f
+
+PODFILE CHECKSUM: 0363b740354aaa16d4f2d26a0f87878fd38cd60a
+
+COCOAPODS: 1.11.3

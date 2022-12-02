@@ -22,8 +22,16 @@ pod 'YNGrayTheme'
 
 ## Author
 
-PropertyManX, yinning@zzvcom.com
+PropertyManX
 
 ## License
 
 YNGrayTheme is available under the MIT license. See the LICENSE file for more info.
+
+## 用法1
+
+1、[LWGrayThemeManager setGlobalGayByForce: YES] #强制全局灰色模式
+
+## 用法2
+2、[LWGrayThemeManager configCanGray: YES] #打开灰色模式 
+2、[LWGrayThemeManager handleGrayThemeWithSuperView: view]# 添加需要灰色的视图，会自动关联子视图

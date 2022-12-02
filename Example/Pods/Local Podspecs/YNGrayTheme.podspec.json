@@ -1,0 +1,22 @@
+{
+  "name": "YNGrayTheme",
+  "version": "0.1.0",
+  "summary": "A short description of YNGrayTheme.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PropertyManX/YNGrayTheme",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PropertyManX": "yinning@zzvcom.com"
+  },
+  "source": {
+    "git": "https://github.com/PropertyManX/YNGrayTheme.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "YNGrayTheme/Classes/**/*"
+}
