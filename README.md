@@ -30,7 +30,7 @@ YNGrayTheme is available under the MIT license. See the LICENSE file for more in
 
 ## 用法1
 
-1、[LWGrayThemeManager setGlobalGayByForce: YES] #强制全局灰色模式
+* [LWGrayThemeManager setGlobalGayByForce: YES] #强制全局灰色模式
 
 ## 用法2
 * [LWGrayThemeManager configCanGray: YES] #打开灰色模式 
