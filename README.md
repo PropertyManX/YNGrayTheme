@@ -30,8 +30,8 @@ YNGrayTheme is available under the MIT license. See the LICENSE file for more in
 
 ## 用法1
 
-* [LWGrayThemeManager setGlobalGayByForce: YES] #强制全局灰色模式
+* [YNGrayThemeManager setGlobalGayByForce: YES] #强制全局灰色模式
 
 ## 用法2
-* [LWGrayThemeManager configCanGray: YES] #打开灰色模式 
-* [LWGrayThemeManager handleGrayThemeWithSuperView: view]# 添加需要灰色的视图，会自动关联子视图
+* [YNGrayThemeManager configCanGray: YES] #打开灰色模式 
+* [YNGrayThemeManager handleGrayThemeWithSuperView: view]# 添加需要灰色的视图，会自动关联子视图
